@@ -3,40 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEAL RESTAURANT</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>DEAL RESTAURANT - Contact</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./assets/css/ restaurant.css">
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Voltaire&display=swap" rel="stylesheet"> -->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Voltaire&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
-    <section class="contact_us">
-        <h2 id="contact_us">Contact Us</h2>
-        <div>
-            <i><h3>Visit Us. Call Us or fill the form below</h3></i>
+   
+    <section>
+        <header class="collapse">
+      <a href="#"><img src="../assets/Images/logo.png" alt="logo" class="logo"> </a>
+          <li><a href="#" onclick="dropNav()"> <i class="fa fa-bars"></i> </a></li>
+        </header>
+      </section>
+  
+      <div>
+		<ul class="menu-nav" id="navBar">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="our-story.html">our story</a></li>
+
+		  <div class="dropdown">
+		  <li><a href="#" class="down-menu dropbtn" onclick="myFunction()" >specials <i class="fa fa-angle-down"></i> </a> </li>
+		  
+			<div id="myDropdown" class="dropdown-content">
+				<a href="special-lunch.html">LUNCH</a>
+                <a href="special-brunch.html">BRUNCH</a>
+                <a href="special dinner.html">DINNER</a>
+			</div>
+		</div>
+		  <li><a href="Beer_Wine.html">beer & wine</a></li>
+		  <li><a href="recipes.html">recipes</a></li>
+		  <li><a href="contact-page.html" class="active">contact</a></li>
+		</ul>
+	</div>
+      
+    
+      <section class="home">
+    
+        <div class="home-img">
+          <img src="../assets/Images/Contact/Contact banner bg.png" alt="homepage banner">
         </div>
-        <div>
-            <!-- location -->
-            <img src="assets/Images/Contact/MAP.png" alt="MAP" >
+    
+        <div class="home-content land">
+    
+          <div class="recipes">
+            <h2>Contact Us</h2>
+          </div>
+
+    
         </div>
-        <div>
-            <form>
-   <input type="text" id="name" name="name" placeholder="your name"><br><br>
-   <input type="email"  id="email"  name="email" placeholder="johndoe@mail.com"><br><br>       
-  <input type="tel" id="phone" name="phone" placeholder="+234 906 777 889"
-  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
-  <!-- <small>Format: 123-45-678</small><br><br> -->
-  <input type="date" id="date" name="date" placeholder="10/10/2020"><br><br>
-  <!-- <input type="submit"> -->
-  <button>SEND</button>
-            </form>
+      </section>
+   
+
+     
+
+        
+        <div class="container">
+    
+            <div class="t-head">
+                <h3>Visit Us, Call Us or Fill the form below</h3>
+              </div>
+    
+          </div>
+
+          <div>
+
+                   <!-- location -->
+                   <img src="assets/Images/Contact/MAP.png" alt="MAP" >
+                </div>
+
+    <main class="container">
+
+                <div class="contact-frm-frm">
+                    <form>
+                        <div>
+           <input type="text" id="name" name="name" placeholder="your name">
         </div>
+
         <div>
-            <!-- social media links -->
-            <ul>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            </ul>
+           <input type="email"  id="email"  name="email" placeholder="johndoe@mail.com">
         </div>
-    </section>
+           
+<div>
+          <input type="tel" id="phone" name="phone" placeholder="+234 906 777 889"
+          pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    </div>
+
+          <!-- <small>Format: 123-45-678</small><br><br> -->
+          <div>
+          <input type="date" id="date" name="date" placeholder="10/10/2020">
+          <!-- <input type="submit"> -->
+
+        </div>
+          <input type="submit" value="SEND" id="send">
+                    </form>
+                    
+                </div>
+                <div class="social">
+                    <!-- social media links -->
+                
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                
+                </div>
+
+
+  
+  
+   <!-- FOOTER -->
+
+   <footer class="footer">
+  
+    <div class="copyright">
+      <p>
+        Deal Restaurant | Terms Privacy © Deal Restaurant | 2020. All Rights Reserved.
+      </p>
+
+      <p>
+        Nigeria | Ghana | Togo | South Africa
+      </p>
+    </div>
+
+    <div class="sm">
+      <h2>SPECIALS MENU</h2>
+      <ul>
+        <li><a href="special-lunch.html">LUNCH</a></li>
+        <li><a href="special-brunch.html">BRUNCH</a></li>
+        <li><a href="special dinner.html">DINNER</a></li>
+      </ul>
+    </div>
+
+  </footer>
+
+</main>
+
+   <script src="../assets/js/restaurant.js"></script>
+
 </body>
 </html>

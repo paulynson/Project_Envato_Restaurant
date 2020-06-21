@@ -3,21 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deal Restaurant</title>
+    <title>Deal Restaurant - Beer & Wine</title>
+    <link rel="stylesheet" href="./assets/css/ restaurant.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Voltaire&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div>
-        <img src="assets/Images/Beer & Wine/W1.png" alt="W1" >
-        <img src="assets/Images/Beer & Wine/W2.png" alt="W2" >
-        <section>
-            <i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatic</p></i>
-            <button>READ MORE</button>
-        </section>
-        <img src="assets/Images/Beer & Wine/W3.png" alt="W3" >
-        <img src="assets/Images/Beer & Wine/W4.png" alt="W4" >
-        <img src="assets/Images/Beer & Wine/W5.png" alt="W5" >
-        <img src="assets/Images/Beer & Wine/WB1.png" alt="WB1" >
-        <img src="assets/Images/Beer & Wine/WB2.png" alt="WB2" >
+
+    <section>
+        <header class="collapse">
+      <a href="#"><img src="../assets/Images/logo.png" alt="logo" class="logo"> </a>
+          <li><a href="#" onclick="dropNav()"> <i class="fa fa-bars"></i> </a></li>
+        </header>
+      </section>
+  
+      <div>
+		<ul class="menu-nav" id="navBar">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="our-story.html">our story</a></li>
+
+		  <div class="dropdown">
+		  <li><a href="#" class="down-menu dropbtn" onclick="myFunction()" >specials <i class="fa fa-angle-down"></i> </a> </li>
+		  
+			<div id="myDropdown" class="dropdown-content">
+				<a href="special-lunch.html">LUNCH</a>
+                <a href="special-brunch.html">BRUNCH</a>
+                <a href="special dinner.html">DINNER</a>
+			</div>
+		</div>
+		  <li><a href="Beer_Wine.html" class="active">beer & wine</a></li>
+		  <li><a href="recipes.html">recipes</a></li>
+		  <li><a href="contact-page.html">contact</a></li>
+		</ul>
+	</div>
+      
+    
+      <section class="home">
+    
+        <div class="home-img">
+          <img src="../assets/Images/Beer & Wine/W Banner bg.png" alt="homepage banner">
+        </div>
+    
+        <div class="home-content land">
+    
+          <div>
+            <h2>Today's Wine & Beer</h2>
+          </div>
+    
+          <div class="btn-btn ">
+    <button class="btn-2 lunch">RESERVATION</button>
+          </div>
+    
+        </div>
+      </section>
+
+      <main class="container">
+
+            <!-- <section id="special-brunch"> -->
+
+        <div class="card-col omn read-content">
+  
+			<!-- <div class="cards-col"> -->
+  
+			<div class="card-img">
+                <img src="assets/Images/Beer & Wine/W1.png" alt="W1" >
+			</div>
+  
+			<div class="card-img">
+                <img src="assets/Images/Beer & Wine/W4.png" alt="W4" >
+			</div>
+  
+          </div>
+          
+
+          <div class="card-col read-content">
+  
+            
+            <div class="card-content read2">
+               <div class="core">
+                <h4>Pretium Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores! consectetur augue augue morbi eget faucibus neque</h4>
+                <button class="read-more">Read More</button>
+            </div>
+            <img src="assets/Images/Beer & Wine/W3.png" alt="W3" >
+              </div>
+  
+			<div class="card-img"> 
+                <img src="assets/Images/Beer & Wine/W2.png" alt="W2" >
+			</div>
+  
+		  </div>
+  
+		 
+          <div class="card-col omn read-content">
+  
+			<!-- <div class="cards-col"> -->
+  
+			<div class="card-img">
+                <img src="assets/Images/Beer & Wine/WB1.png" alt="WB1" >
+			</div>
+  
+			<div class="card-img">
+                <img src="assets/Images/Beer & Wine/WB2.png" alt="WB2" >
+			</div>
+  
+          </div>
+          
+ 
+  
+  
+   <!-- FOOTER -->
+
+   <footer class="footer">
+  
+    <div class="copyright">
+      <p>
+        Deal Restaurant | Terms Privacy © Deal Restaurant | 2020. All Rights Reserved.
+      </p>
+
+      <p>
+        Nigeria | Ghana | Togo | South Africa
+      </p>
     </div>
+
+    <div class="sm">
+      <h2>SPECIALS MENU</h2>
+      <ul>
+        <li><a href="special-lunch.html">LUNCH</a></li>
+        <li><a href="special-brunch.html">BRUNCH</a></li>
+        <li><a href="special dinner.html">DINNER</a></li>
+      </ul>
+    </div>
+
+  </footer>
+
+</main>
+
+   <script src="../assets/js/restaurant.js"></script>
+
 </body>
 </html>

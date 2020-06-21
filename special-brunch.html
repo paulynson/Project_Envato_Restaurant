@@ -3,32 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deals Restaurant</title>
+    <title>Deals Restaurant - Brunch</title>
+    <link rel="stylesheet" href="./assets/css/ restaurant.css">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Voltaire&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="special-brunch">
-        <section id="special-brunch">
-            <div>
+
+    <section>
+        <header class="collapse">
+      <a href="#"><img src="../assets/Images/logo.png" alt="logo" class="logo"> </a>
+          <li><a href="#" onclick="dropNav()"> <i class="fa fa-bars"></i> </a></li>
+        </header>
+      </section>
+  
+      <div>
+		<ul class="menu-nav" id="navBar">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="our-story.html">our story</a></li>
+
+		  <div class="dropdown">
+		  <li><a href="#" class="down-menu dropbtn" onclick="myFunction()" >specials <i class="fa fa-angle-down"></i> </a> </li>
+		  
+			<div id="myDropdown" class="dropdown-content">
+				<a href="special-lunch.html">LUNCH</a>
+                <a href="special-brunch.html" class="active">BRUNCH</a>
+                <a href="special dinner.html">DINNER</a>
+			</div>
+		</div>
+		  <li><a href="Beer_Wine.html">beer & wine</a></li>
+		  <li><a href="recipes.html">recipes</a></li>
+		  <li><a href="contact-page.html">contact</a></li>
+		</ul>
+	</div>
+      
+    
+      <section class="home">
+    
+        <div class="home-img">
+          <img src="../assets/Images/Our Story/OS banner bg.png" alt="homepage banner">
+        </div>
+    
+        <div class="home-content land">
+    
+          <div>
+            <h2>Today's Brunch</h2>
+          </div>
+    
+          <div class="btn-btn ">
+    <button class="btn-2 lunch">RESERVATION</button>
+          </div>
+    
+        </div>
+      </section>
+
+      <main class="container">
+
+            <!-- <section id="special-brunch"> -->
+
+        <div class="card-col omn read-content">
+  
+			<!-- <div class="cards-col"> -->
+  
+			<div class="card-img">
                 <img src="assets/Images/Special-brunch/BR1.png" alt="BR1" >
-                <i><h4>Lorem ipsum dolor sit amet, consectetur elit ut aliquam purus sit amet luctus venenatis</h4></i>
-                <button>Read More</button>
-            </div>
-            <div>
-                <i><h4>Lorem ipsum dolor sit amet, consectetur elit ut aliquam purus sit amet luctus venenatis</h4></i>
-                <button>Read More</button>
+			</div>
+  
+			<div class="card-content read">
+              <h4>Pretium Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores! consectetur augue augue morbi eget faucibus neque</h4>
+              <button class="read-more">Read More</button>
+			</div>
+  
+          </div>
+          
+
+          <div class="card-col read-content">
+  
+            
+            <div class="card-content read2">
+                <h4>Pretium Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores! consectetur augue augue morbi eget faucibus neque</h4>
+                <button class="read-more">Read More</button>
+              </div>
+  
+			<div class="card-img"> 
                 <img src="assets/Images/Special-brunch/BR2.png" alt="BR2">
-            </div>
-            <div>
+			</div>
+  
+		  </div>
+  
+		 
+          <div class="card-col omn read-content">
+  
+
+  
+			<div class="card-img">
                 <img src="assets/Images/Special-brunch/BR3.png" alt="BR3" >
-                <i><h4>Lorem ipsum dolor sit amet, consectetur elit ut aliquam purus sit amet luctus venenatis</h4></i>
-                <button>Read More</button>
-            </div>
-            <div>
-                <img src="assets/Images/Special-brunch/BR4.png" alt="BR4">
-                <img src="assets/Images/Special-brunch/BR5.png" alt="BR5">
-                <img src="assets/Images/Special-brunch/BR6.png" alt="BR6">
-            </div>
-        </section>
-    </div> 
+			</div>
+  
+			<div class="card-content read">
+                <h4>Pretium Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, dolores! consectetur augue augue morbi eget faucibus neque</h4>
+                <button class="read-more">Read More</button>
+              </div>
+          </div>
+
+          <div class="img-grid">
+            <img src="assets/Images/Special-brunch/BR4.png" alt="BR4">
+            <img src="assets/Images/Special-brunch/BR5.png" alt="BR5">
+            <img src="assets/Images/Special-brunch/BR6.png" alt="BR6">
+        </div>
+
+ 
+  
+  
+   <!-- FOOTER -->
+
+   <footer class="footer">
+  
+    <div class="copyright">
+      <p>
+        Deal Restaurant | Terms Privacy © Deal Restaurant | 2020. All Rights Reserved.
+      </p>
+
+      <p>
+        Nigeria | Ghana | Togo | South Africa
+      </p>
+    </div>
+
+    <div class="sm">
+      <h2>SPECIALS MENU</h2>
+      <ul>
+        <li><a href="special-lunch.html">LUNCH</a></li>
+        <li><a href="special-brunch.html">BRUNCH</a></li>
+        <li><a href="special dinner.html">DINNER</a></li>
+      </ul>
+    </div>
+
+  </footer>
+
+</main>
+
+   <script src="../assets/js/restaurant.js"></script>
+
 </body>
 </html>

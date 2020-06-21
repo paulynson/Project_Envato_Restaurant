@@ -3,57 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deal Restaurant</title>
+    <title>Deal Restaurant - Recipes</title>
+    <link rel="stylesheet" href="./assets/css/ restaurant.css">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Voltaire&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
 </head>
 <body>
-    <small>
-    <i><h3>Recipes from our favourite chefs</h3></i>
-    <h4>Explore recipes and menu ideas from our best chefs.</h4>
-    <h2>Our Latest recipes</h2>
-    </small>
+
+    <section>
+        <header class="collapse">
+      <a href="#"><img src="../assets/Images/logo.png" alt="logo" class="logo"> </a>
+          <li><a href="#" onclick="dropNav()"> <i class="fa fa-bars"></i> </a></li>
+        </header>
+      </section>
+  
+      <div>
+		<ul class="menu-nav" id="navBar">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="our-story.html">our story</a></li>
+
+		  <div class="dropdown">
+		  <li><a href="#" class="down-menu dropbtn" onclick="myFunction()" >specials <i class="fa fa-angle-down"></i> </a> </li>
+		  
+			<div id="myDropdown" class="dropdown-content">
+				<a href="special-lunch.html">LUNCH</a>
+                <a href="special-brunch.html">BRUNCH</a>
+                <a href="special dinner.html">DINNER</a>
+			</div>
+		</div>
+		  <li><a href="Beer_Wine.html">beer & wine</a></li>
+		  <li><a href="recipes.html" class="active">recipes</a></li>
+		  <li><a href="contact-page.html">contact</a></li>
+		</ul>
+	</div>
+      
+    
+      <section class="home">
+    
+        <div class="home-img">
+          <img src="../assets/Images/Recipes/RC banner bg.png" alt="homepage banner">
+        </div>
+    
+        <div class="home-content land">
+    
+          <div class="recipes">
+            <h2>Recipes</h2>
+          </div>
+    
+          <div class="btn-btn ">
+    <button class="btn-2 lunch">RESERVATION</button>
+          </div>
+    
+        </div>
+      </section>
+
+      <main class="container">
+
+        
     <div>
-        <section>
-            <img src="assets/Images/Recipes/RC1.png" alt="RC1">
-            <!-- Time -->
-            <small><h3>Homemade Spinach</h3></small>
-        </section>
-        <section>
-            <img src="assets/Images/Recipes/RC2.png" alt="RC2">
-            <!-- Time -->
-            <small><h3>Hot Chocolate Fondant</h3></small>
-        </section>
-         <section>
-            <img src="assets/Images/Recipes/RC3.png" alt="RC3">
-            <!-- Time -->
-            <small><h3>StrawBerry Spices</h3></small>
-        </section>
-         <section>
-            <img src="assets/Images/Recipes/RC4.png" alt="RC4">
-            <!-- Time -->
-            <small><h3>Homemade Spinach</h3></small>
-        </section> 
-        <section>
-            <img src="assets/Images/Recipes/RC5.png" alt="RC5">
-            <!-- Time -->
-            <small><h3>Hot Chocolate Fondant</h3></small>
-        </section> <section>
-            <img src="assets/Images/Recipes/RC6.png" alt="RC6">
-            <!-- Time -->
-            <small><h3>StrawBerry Spices</h3></small>
-        </section> <section>
-            <img src="assets/Images/Recipes/RC7.png" alt="RC7">
-            <!-- Time -->
-            <small><h3>Homemade Spinach</h3></small>
-        </section>
-        <section>
-            <img src="assets/Images/Recipes/RC8.png" alt="RC8">
-            <!-- Time -->
-            <small><h3>Hot Chocolate Fondant</h3></small>
-        </section> <section>
-            <img src="assets/Images/Recipes/RC9.png" alt="RC9">
-            <!-- Time -->
-            <small><h3>StrawBerry Spices</h3></small>
-        </section>
+
+        <div class="t-head">
+            <h3>Recipes from our favourite chefs</h3>
+          </div>
+      
+          <section class="t-head2">
+              <div>
+            <h3>Explore recipes and menu ideas from our best chefs</h3>
+        </div>
+          </section>
+
+          <div class="t-head3">
+            <h3>Our latest recipes</h3>
+        </div>
+
+      </div>
+    
+
+        <div class="recipe-grid">
+            <section>
+                <img src="assets/Images/Recipes/RC1.png" alt="RC1">
+                <div class="time">
+                <p> <i class='far fa-clock'></i> <span class="space2"></span> 30 MINS </p>
+            </div>
+                <small><h3>Homemade Spinach</h3></small>
+            </section>
+
+            <section>
+                <img src="assets/Images/Recipes/RC2.png" alt="RC2">
+                <div class="time">
+                    <p> <i class='far fa-clock'></i> <span class="space2"></span> 40 MINS </p>
+                </div>
+                <small><h3>Hot Chocolate Fondant</h3></small>
+            </section>
+
+             <section>
+                <img src="assets/Images/Recipes/RC3.png" alt="RC3">
+                <div class="time">
+                    <p> <i class='far fa-clock'></i> <span class="space2"></span> 30 MINS </p>
+                </div>
+                <small><h3>StrawBerry Spices</h3></small>
+            </section>
+
+             <section>
+                <img src="assets/Images/Recipes/RC4.png" alt="RC4">
+                <div class="time">
+                    <p> <i class='far fa-clock'></i> <span class="space2"></span> 33 MINS </p>
+                </div>
+                <small><h3>Homemade Spinach</h3></small>
+            </section> 
+
+            <section>
+                <img src="assets/Images/Recipes/RC5.png" alt="RC5">
+                <div class="time">
+                    <p> <i class='far fa-clock'></i> <span class="space2"></span> 30 MINS </p>
+                </div>
+                <small><h3>Hot Chocolate Fondant</h3></small>
+            </section>
+            
+            <section>
+                <img src="assets/Images/Recipes/RC6.png" alt="RC6">
+                <div class="time">
+                    <p> <i class='far fa-clock'></i> <span class="space2"></span> 20 MINS </p>
+                </div>
+                <small><h3>StrawBerry Spices</h3></small>
+            </section>
+            
+            <section>
+                <img src="assets/Images/Recipes/RC7.png" alt="RC7">
+                <div class="time">
+                    <p> <i class='far fa-clock'></i> <span class="space2"></span> 20 MINS </p>
+                </div>
+                <small><h3>Homemade Spinach</h3></small>
+            </section>
+
+            <section>
+                <img src="assets/Images/Recipes/RC8.png" alt="RC8">
+                <div class="time">
+                    <p> <i class='far fa-clock'></i> <span class="space2"></span> 30 MINS </p>
+                </div>
+                <small><h3>Hot Chocolate Fondant</h3></small>
+            </section> 
+            
+            <section>
+                <img src="assets/Images/Recipes/RC9.png" alt="RC9">
+                <div class="time">
+                    <p> <i class='far fa-clock'></i> <span class="space2"></span> 30 MINS </p>
+                </div>
+                <small><h3>StrawBerry Spices</h3></small>
+            </section>
+        </div>
+
+        <div class="dif">
+
+        </div>
+          
+ 
+  
+  
+   <!-- FOOTER -->
+
+   <footer class="footer">
+  
+    <div class="copyright">
+      <p>
+        Deal Restaurant | Terms Privacy © Deal Restaurant | 2020. All Rights Reserved.
+      </p>
+
+      <p>
+        Nigeria | Ghana | Togo | South Africa
+      </p>
     </div>
+
+    <div class="sm">
+      <h2>SPECIALS MENU</h2>
+      <ul>
+        <li><a href="special-lunch.html">LUNCH</a></li>
+        <li><a href="special-brunch.html">BRUNCH</a></li>
+        <li><a href="special dinner.html">DINNER</a></li>
+      </ul>
+    </div>
+
+  </footer>
+
+</main>
+
+   <script src="../assets/js/restaurant.js"></script>
+
 </body>
 </html>
