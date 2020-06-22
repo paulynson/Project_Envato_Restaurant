@@ -1353,6 +1353,10 @@ font-size: 24px;
     cursor: pointer;
   }
 
+  .easy-flow{
+    display: none;
+  }
+
   #submit{
     width:100%;
   }
@@ -1408,17 +1412,7 @@ box-sizing: content-box;
   width: 60%;
 }
 .easy-flow{
-  display: block;
-  width: 60%;
-  margin: 0 auto;
-  clear: both;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-.easy-flow img{
-  width: 50%;
+  display: none;
 }
 
 }
