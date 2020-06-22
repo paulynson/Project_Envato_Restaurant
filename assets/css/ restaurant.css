@@ -1298,3 +1298,128 @@ font-size: 24px;
 .social a:hover{
   color: #F2BE38;
 }
+
+
+
+
+
+.linecard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-gap: 10px;
+	padding: 10px;
+}
+
+.linecard .linecards {
+  text-align: center;
+  padding: 10px;
+}
+
+.linecards img {
+  width: 100%;
+  object-fit: contain;
+
+}
+
+.linecard .linecards button {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  box-sizing: border-box;
+  padding: 15px 0;
+  background-color: #6abebf;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.linecard .linecards button:hover {
+  background-color: #000000;
+  transition: 0.5s ease-in-out;
+}
+
+@media(max-width: 768px){
+  .linecard .linecards button {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    box-sizing: border-box;
+    padding: 15px 0;
+    background-color: #6abebf;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #submit{
+    width:100%;
+  }
+
+  .grid-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,));
+
+  }
+
+}
+
+
+/* flex Area */
+.flex{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+box-sizing: content-box;
+}
+
+.flex-box{
+  flex-basis: 50%;
+  flex: 1;
+}
+
+.flexbox{
+  flex-basis: 50%;
+  flex: 1;
+  height: 100%;
+}
+
+.flexbox h4{
+  color: #ffffff;
+  text-align: center;
+}
+
+.flex-img{
+  flex-basis: 50%;
+  flex: 1;
+  height: 100%;
+}
+
+@media(min-width: 320px) and (max-width: 767px){
+.grid-area{
+  display: grid;
+  max-width: 60%;
+  grid-template-columns: 1fr;
+}
+
+.grid-area img{
+  width: 60%;
+}
+.easy-flow{
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  clear: both;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.easy-flow img{
+  width: 50%;
+}
+
+}
+
