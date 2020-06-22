@@ -1417,3 +1417,11 @@ box-sizing: content-box;
 
 }
 
+.linecards .core h4{
+  color: #ffffff;
+}
+
+.grey h4{
+  height: 400px;
+  padding: 30px 10px;
+}
